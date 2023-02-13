@@ -5,3 +5,7 @@ This package makes it super easy to integrate [Apex](https://apexwallet.xyz/) in
 Want your favorite connection library to be featured? Reach out to us at team@apexwallet.xyz!
 
 Also, be sure to check out our [docs](https://docs.apexwallet.xyz/docs) if you'd like to integrate Apex without using our package :)
+
+# Installation + Usage
+
+Simply run `npm install apex-integration` or `yarn add apex-integration` depending on your package manager.

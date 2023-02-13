@@ -1,6 +1,6 @@
 {
   "name": "apex-integration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Apex Wallet",
   "description": "A small, easy-to-use package for integrating Apex in wallet connection frontend libraries.",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "yarn build",
     "prepublishOnly": "yarn lint",

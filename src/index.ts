@@ -1,2 +1,2 @@
 export * from './wagmi/ApexConnector';
-export * from './rainbow/ApexWalletRainbow';
+export * from './rainbow/apexWalletRainbow';

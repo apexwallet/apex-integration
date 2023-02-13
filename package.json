@@ -1,6 +1,6 @@
 {
   "name": "apex-integration",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Apex Wallet",
   "description": "A small, easy-to-use package for integrating Apex in wallet connection frontend libraries.",
   "main": "lib/index.js",

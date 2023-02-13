@@ -1,0 +1,47 @@
+{
+  "name": "apex-integration",
+  "version": "1.0.0",
+  "author": "Apex Wallet",
+  "description": "A small, easy-to-use package for integrating Apex in wallet connection frontend libraries.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn lint",
+    "version": "yarn format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apexwallet/apex-integration.git"
+  },
+  "keywords": [
+    "apex",
+    "wallet",
+    "web"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apexwallet/apex-integration/issues"
+  },
+  "homepage": "https://github.com/apexwallet/apex-integration#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/webextension-polyfill": "0.9.2",
+    "prettier": "^2.8.4",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "ethers": "^5",
+    "wagmi": "^0.11.5"
+  }
+}

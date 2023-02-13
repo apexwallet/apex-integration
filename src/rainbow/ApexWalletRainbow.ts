@@ -1,6 +1,6 @@
 import { ApexConnector } from '../wagmi/ApexConnector';
 
-export const apexWallet = (chains) => {
+export const ApexRainbowWallet = (chains) => {
   return {
     id: 'apex',
     name: 'Apex',
